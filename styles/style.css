@@ -1,0 +1,54 @@
+body {
+	margin: 20px 0px 20px 0px; 
+}
+
+header {
+	font-family: 'Nunito Sans', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 62px;
+	margin: 0px 0px 5px 0px; 
+	padding: 0px 0px 0px 0px;
+}
+
+.fewd-title {
+	font-weight: lighter;
+	font-size: 24px;
+	margin: 0px 0px 5px 0px; 
+	padding: 0px 0px 0px 0px;
+}
+
+.fewd-date {
+	font-weight: lighter;
+	font-size: 18px;
+	margin: 0px 0px 5px 0px; 
+	padding: 0px 0px 0px 0px;
+}
+
+nav {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.bodyheadline {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 36px;
+}
+
+footer {
+	background-color: rgba(38, 47, 41, 1);
+	margin: 20px 0px 20px 0px; 
+}
+
+footer a {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 12px;
+	font-color: rgba(243, 243, 239, 1);
+	text-decoration: none;
+}
