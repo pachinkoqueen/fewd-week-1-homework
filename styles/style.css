@@ -75,12 +75,12 @@ nav a {
     text-decoration: none;
 }
 
-/* styling the interior portfolio content */
 .bodyheadline {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 36px;
 }
 
+/* styling for portfolio on home page */
 .portfolio {
 	margin: 0px 300px 50px 300px;
 }
@@ -90,6 +90,7 @@ nav a {
 	font-size: 14px;
 }
 
+/* styling for about page */
 
 .aboutme {
 	margin: 0px 300px 50px 300px;
@@ -99,6 +100,17 @@ nav a {
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
+}
+
+/* pretty sure this is not the most broswer-compatible way of displaying this photo divider */
+
+.fivethingsphoto {
+	border:1px solid rgba(210, 215, 211, 1);
+    border-width:1px 0;
+	background: url(../images/fivethings.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
 }
 
 .fivethings {
@@ -115,6 +127,7 @@ nav a {
 .item {
 	padding: 0px 0px 40px 0px;
 }
+
 
 /* style footer so it is a horizontal nav bar */
 /* gave up on trying to make it centered instead of tacked left */
