@@ -1,5 +1,5 @@
 body {
-	margin: 20px 0px 20px 0px; 
+	margin: 0px; 
 }
 
 header {
@@ -46,15 +46,13 @@ a:active {
 }
 
 /* style nav list so it is a horizontal nav bar */
-nav {
+/*nav {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
-	text-align: center;
-	border: solid;
 }
+
 nav ul {
-	display: inline;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -65,12 +63,13 @@ nav li {
 	float: left;
 }
 
-li a {
+nav a {
 	display: block;
 	color: rgba(172, 68, 93, 1);
+	text-align: center;
     padding: 20px 20px 20px 20px;
     text-decoration: none;
-}
+}*/
 
 .bodyheadline {
 	font-family: 'Cormorant Garamond', serif;
@@ -78,9 +77,14 @@ li a {
 }
 
 /* style footer so it is a horizontal nav bar */
+/* gave up on trying to make it centered instead of tacked left */
+
+footer {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 12px;
+}
 
 footer ul {
-	display: inline;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -93,8 +97,8 @@ footer li {
 }
 
 footer a {
-	font-family: 'Nunito Sans', sans-serif;
-	font-size: 12px;
+	display: block;
 	color: rgba(243, 243, 239, 1);
-	margin: 20px 0px 20px 0px; 
+	padding: 20px;
+	text-decoration: none;
 }
