@@ -71,6 +71,33 @@ nav a {
     text-decoration: none;
 }*/
 
+nav {
+	border:1px solid #ccc;
+    border-width:1px 0;
+    font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	display: inline-block;
+	color: rgba(172, 68, 93, 1);
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+}
+
+
 .bodyheadline {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 36px;
