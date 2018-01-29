@@ -8,6 +8,22 @@ header {
 	text-align: center;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
 .name {
 	font-weight: bold;
 	font-size: 62px;
@@ -29,11 +45,31 @@ header {
 	padding: 0px 0px 0px 0px;
 }
 
+/* style nav list so it is a horizontal nav bar */
 nav {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
 	text-align: center;
+	border: solid;
+}
+nav ul {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: rgba(172, 68, 93, 1);
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
 }
 
 .bodyheadline {
@@ -41,14 +77,24 @@ nav {
 	font-size: 36px;
 }
 
-footer {
+/* style footer so it is a horizontal nav bar */
+
+footer ul {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 	background-color: rgba(38, 47, 41, 1);
-	margin: 20px 0px 20px 0px; 
+}
+
+footer li {
+	float: left;
 }
 
 footer a {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 12px;
-	font-color: rgba(243, 243, 239, 1);
-	text-decoration: none;
+	color: rgba(243, 243, 239, 1);
+	margin: 20px 0px 20px 0px; 
 }
